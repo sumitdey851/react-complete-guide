@@ -1,7 +1,7 @@
 import React from "react";  // Older react projects use this to write code without JSX (see lines 32-38)
 import Expenses from "./components/Expenses/Expenses";
 
-function App() {
+const App = () => {
   const items = [
     {
       id: "e1",
