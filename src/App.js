@@ -1,3 +1,4 @@
+import React from "react";  // Older react projects use this to write code without JSX (see lines 32-38)
 import Expenses from "./components/Expenses";
 
 function App() {
@@ -28,8 +29,17 @@ function App() {
     },
   ];
 
+  // Code using React without JSX
+  // return React.createElement(
+  //   "div",
+  //   {},
+  //   React.createElement("h2", {}, "Hello!"),
+  //   React.createElement(Expenses, {items: items})
+  // );
+
   return (
     <div>
+      <h2>Hello!</h2>
       <Expenses items={items} />
     </div>
   );
