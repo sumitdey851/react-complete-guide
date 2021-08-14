@@ -1,3 +1,4 @@
+import React from "react"; //Optional in modern react projects
 import ExpenseDate from "./ExpenseDate";
 import ExpenseAmount from "./ExpenseAmount";
 import Card from "./Card";

@@ -1,3 +1,4 @@
+import React from "react"; //Optional in modern react projects
 import "./Card.css";
 
 function Card(props) {
